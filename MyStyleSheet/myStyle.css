@@ -1,0 +1,101 @@
+
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+h1.mainheading {
+    text-align: center;
+    color: #91c2eb;
+    
+}
+
+.bdy1 {
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    color: #68104b;
+    
+}
+
+button {
+   
+        padding: 10px 20px;
+        font-size: 1.2rem;
+   
+}
+
+h2.rlhd{
+    text-align: center;
+    color: #7a1175;
+}
+
+
+
+h1.pg1hd {
+    text-align: center;
+    color: #91c2eb;
+    
+}
+body{
+    position: relative;
+    background: lavender;
+    overflow: hidden;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+
+/* Small devices show this  */
+.small-device{
+    color:white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    text-align: center;
+    line-height: 140%;
+    font-size: 16px;
+}
+
+.canvas-container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.canvas-container p{
+    font-size: 50px;
+    font-weight: 600;
+    color: pink;
+    min-width: 40px;
+    text-align: center;
+}
+
+/* Score of left player  */
+.canvas-container p:first-child{
+    margin-right: 60px;
+}
+
+/* Score of right player  */
+.canvas-container p:last-child{
+    margin-left: 60px;
+}
+
+
+.canvas-container .wrapper{
+    border: 4px solid white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px #ee75d4;
+}
+ 
